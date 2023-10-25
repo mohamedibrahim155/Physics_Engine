@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Myclasses">
+      <UniqueIdentifier>{0180fda8-5516-49c5-8804-e521ec491b7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Myclasses\ShaderFiles">
+      <UniqueIdentifier>{ad51fe4f-5d32-4795-afc6-e2bd80458efe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Myclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBuffer.cpp">
+      <Filter>Myclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexArray.cpp">
+      <Filter>Myclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Myclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Myclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Myclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Myclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Myclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Myclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="LightManager.cpp">
+      <Filter>Myclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Myclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexBuffer.cpp">
+      <Filter>Myclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="ExternalFileLoader.cpp">
+      <Filter>Myclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Myclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LightManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBufferLayout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGL_Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Light_VertexShader.vert">
+      <Filter>Myclasses\ShaderFiles</Filter>
+    </None>
+    <None Include="Light_FragmentShader.frag">
+      <Filter>Myclasses\ShaderFiles</Filter>
+    </None>
+    <None Include="FragmentShader.frag">
+      <Filter>Myclasses\ShaderFiles</Filter>
+    </None>
+    <None Include="VertexShader.vert">
+      <Filter>Myclasses\ShaderFiles</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="SimpleData.txt">
+      <Filter>Myclasses</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Images\container2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\container2_specular.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Default_Textures\Diffuse_Default.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Default_Textures\Specular_Default.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

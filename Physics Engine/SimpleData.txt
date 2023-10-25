@@ -1,0 +1,15 @@
+
+#Model
+Model_name : Summa
+Model_Path : goyyala
+position: { 0,0,0.1 }
+Rotation: { 0,0,0.1 }
+Scale: { 1,1,1 }
+
+#Model
+Model_name : hey
+Model_Path : rogger
+position: { 0,0,0.1 }
+Rotation: { 0,0,0.1 }
+Scale: { 1,1,1 }
+
